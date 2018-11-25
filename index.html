@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,800|Oswald:400,600|Roboto" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        .top_nav {
+            background-color: #212121;
+            width: 100%;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+        }
+        ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            
+        }
+        .link {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            color: #fff;
+            text-decoration: none;
+            padding: 31px 15px;
+            display: block;
+        }
+        .link:hover {
+            border-bottom: 5px solid #fff;
+        }
+
+        .main_page {
+            height: 574px;
+            width: 100%;
+            background: #878787 url(img/header_bg.svg) no-repeat center / cover;
+            display: table;
+        }
+        .main_offer {
+            width: 650px;
+            margin: 0 auto;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .company_title {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            font-size: 24px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+        .slogan {
+            font-family: 'Open Sans', sans-serif;
+            width: 700px;
+            margin: 0 auto;
+            font-weight: 800;
+            line-height: 52px;
+            font-size: 48px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+        .track_services {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            font-size: 24px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+        .btn {
+            padding: 20px 40px;
+            background-color: #FFD96C;
+            display: inline-block;
+            border-radius: 50px;
+            font-family: 'Open Sans', sans-serif;
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 18px;
+            color: #000000;
+        }
+        .phone_link {
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            bottom: 0; right: 0;
+            background-color: red;
+        }
+    </style>
+
+    <link rel="stylesheet" href="fotorama/fotorama.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+    <a href="tel:+77082121517" class="phone_link"></a>
+
+    <header>
+        <nav class="top_nav">
+            <ul>
+                <li><a href="#" class="link">Главная</a></li>
+                <li><a href="#" class="link">Услуги</a></li>
+                <li><a href="#" class="link">Цены</a></li>
+                <li><a href="#" class="link">Галерея</a></li>
+                <li><a href="#" class="link">Контакты</a></li>
+            </ul>
+            <a href="#" class="menu_btn">
+                <span class="menu_line"></span>
+                <span class="menu_line first"></span>
+                <span class="menu_line second"></span>
+            </a>
+            <div class="burger">
+                <div class="menu">
+                    
+                    <div class="menu_list">
+                        <a href="#">Главная</a>
+                        <a href="#">Услуги</a>
+                        <a href="#">Цены</a>
+                        <a href="#">Галерея</a>
+                        <a href="#">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="main_page">
+            <div class="main_offer">
+                <p class="company_title">Truck & TIR Servis 04</p>
+                <p class="slogan">предоставляем услуги более пяти лет!</p>
+                <p class="track_services">грузовой автосервис</p>
+                <a href="#" class="btn yellow">Заказать звонок</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="services">
+        <div class="container btn-align">
+            <div class="sec_main_title">
+                <p class="sec_title">Что мы предостовляем</p>
+                <div class="sec_border"></div>
+            </div>
+            <p class="text">ремонт и изготовление тентов.</p>
+            <p class="text">ремонт сдвижного механизма прицепа. (шторы. крыши.).</p>
+            <p class="text">ремонт ходовой части. Ремонт тормозной системы (супортов, клепка накладок.).</p>
+            <p class="text">ремонт и восстановление осей всех видов. (токарно фрезерные работы).</p>
+            <p class="text">услуги авто электрика, диагностика, ремонт стартеров, генераторов.</p>
+            <p class="text">сварочные работы всех видов. (аргон, полуавтомат).</p>
+            <p class="text">услуги грузового  эвакуатора, выездная бригада механиков, TiRПаркинк.</p>
+            <p class="text">Доставка запчастей на трассу( место поломки).</p>
+            <p class="text">Большой ассортимент запчастей в наличии и на заказ.</p>
+            <p class="text">Ремонт двигателей. Ремонт кпп.</p>
+            <p class="text">Ремонт гбц (опресовка, расточка, притирка клапанов)</p>
+            <a href="" class="btn btn-services">Заказать звонок</a>
+        </div>
+    </section>
+
+
+    <section class="price">
+        <div class="container">
+            <div class="sec_main_title no-m">
+                <p class="sec_title left">наш прайс лист</p>
+                <div class="sec_border left-b"></div>
+            </div>
+            <div class="price_items">
+                <div class="price_item">
+                    <p class="price_text">замена пневморесоры-6000.</p>
+                    <p class="price_text">замена полуресоры-12000.</p>
+                    <p class="price_text">ремонт тормозного супорта - 13000.</p>
+                    <p class="price_text">замена рулевых шкворней 50000.</p>
+                    <p class="price_text">Клепка тормозных накладок-5000 ось.</p>
+                    <p class="price_text">замена крестовины-8000.</p>
+                </div>
+                <div class="price_item">
+                    <p class="price_text">Компьютерная диагностика 10000.</p>
+                    <p class="price_text">дефектовка ходовой части-5000.</p>
+                    <p class="price_text">замена саленблоков полурессор - 60000 </p>
+                    <p class="price_text">замена тор накладок-7000 ось.</p>
+                    <p class="price_text">Замена масла и фильтров - 7000.</p>
+                    <p class="price_text">замена саленблоков подвески кабины-35000.</p>
+                </div>
+            </div>
+            <div class="btn btn-services">Заказать звонок</div>
+        </div>
+    </section>
+
+    <section class="gallary">
+        <div class="sec_main_title left">
+            <p class="sec_title">наша галерея</p>
+            <div class="sec_border"></div>
+        </div>
+        <div class="fotorama" data-nav="thumbs" data-width="1178px">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.svg" alt="">
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="container send_number">
+            <p class="send_number_title">Заказать обратный звонок</p>
+            <form action="">
+                <input type="text">
+                <button>Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="map">
+            <div id="map"></div>
+        <script>
+        // Initialize and add the map
+        function initMap() {
+        // The location of Uluru
+        var uluru = {lat: 50.3245806, lng: 57.1057577};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 17, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+        </script>
+        <!--Load the API from the specified URL
+        * The async attribute allows the browser to render the page while the API loads
+        * The key parameter will contain your own API key (which is not needed for this tutorial)
+        * The callback parameter executes the initMap() function
+        -->
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6QQhOy0ssyMqqNOiRqAz-2cQkE5lPTo0&callback=initMap">
+        </script>
+        </div>
+        <div class="adress">
+            <p class="adress_title">грузовой автосервис</p>
+            <div class="adress_text_block">
+                <p class="adress_text bold">г. Актобе, Промзона, район строй детали</p>
+                <p class="adress_text">+7 747 505 69 96 +7 775 068 99 58</p>
+            </div>
+            <div class="adress_text_block">
+                <p class="adress_text bold">Грузовой Эвакуатор</p>
+                <p class="adress_text">+7 701 336 22 35</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © Truck & TIR Servis 04 2018</p>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="fotorama/fotorama.js"></script>
+    <script>
+        $('.menu_btn').on('click', function (e) {
+            e.preventDefault();
+            $('.menu').toggleClass('menu_active');
+        });
+    </script>
+</body>
+</html>

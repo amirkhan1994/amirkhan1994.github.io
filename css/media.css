@@ -1,0 +1,108 @@
+@media screen and (max-width: 1300px) {
+    .container {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .fotorama {
+        width: 100%!important;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .map,
+    .adress {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .form {
+        height: 160px;
+        padding: 30px 0;
+    }
+    .send_number {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .send_number_title {
+        
+    }
+    form {
+
+    }
+    #map {
+        display: block;
+    }
+
+    .price_items {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .slogan {
+        width: 100%;
+    }
+    ul {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .menu_btn {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .slogan {
+        font-size: 24px;
+        width: 80%;
+        line-height: 30px;
+    }
+    .sec_title {
+        font-size: 24px;
+
+    }
+    .text {
+        font-size: 14px;
+        text-align: left;
+    }
+    .price_text {
+        font-size: 14px!important;
+    }
+    .btn {
+        font-size: 16px!important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form {
+        padding: 100px 0!important;
+    }
+    input {
+        width: 100%;
+    }
+    button {
+        width: 100%;
+    }
+    .send_number_title {
+        font-size: 18px;
+    }
+    .adress {
+        height: 100%!important;
+    }
+    .adress_text {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 14px!important;
+    }
+}

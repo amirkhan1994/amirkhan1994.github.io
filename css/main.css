@@ -1,0 +1,237 @@
+.container {
+    width: 1178px;
+    margin: 0 auto;
+}
+.sec_main_title {
+    width: 100%;
+    margin: 70px 0;
+}
+.sec_title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.sec_border {
+    width: 120px;
+    margin: 40px auto 0 auto;
+    border-bottom: 9px solid #000;
+}
+.btn-align {
+    text-align: center;
+}
+.text {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.btn-services {
+    margin-top: 40px;
+    background-color: transparent;
+    border: 4px solid #000;
+}
+
+
+.price {
+    background: #F4DD9B url(../img/price_bg.svg) no-repeat center / cover;
+    padding: 30px 0;
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+.left {
+    text-align: left!important;
+}
+.left-b {
+    margin: 0;
+    padding-top: 40px;
+}
+.no-m {
+    margin: 40px 0;
+}
+
+.price_items {
+    display: flex;
+}
+.price_item {
+    margin-right: 50px;
+}
+.price_text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    line-height: 21px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.gallary {
+    display: flex;
+    flex-direction: column;
+}
+.fotorama {
+    margin: 0 auto;
+}
+
+.form {
+    margin-top: 80px;
+    height: 90px;
+    background: #212121;
+    display: flex;
+    justify-content: space-between;
+}
+.send_number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_info_contact {
+    display: flex;
+}
+.send_number_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+
+input {
+    width: 213px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+button {
+    background-color: transparent;
+    border: none;
+    width: 160px;
+    height: 46px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.contact {
+    display: flex;
+    height: 490px;
+}
+.map,
+.adress {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.adress {
+    background: url(../img/contact_bg.svg) no-repeat center / cover;
+}
+
+.adress_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    line-height: normal;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.bold {
+    font-weight: bold!important;
+}
+.adress_text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+
+}
+.adress_text_block {
+    margin-top: 20px;
+}
+#map {
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+  }
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.burger, .menu_btn {
+    display: none;
+}
+.menu {
+    position: fixed;
+    top: 0; right: 0;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    transform: translateX(100%);
+    transition: .3s ease-in-out;
+}
+.menu_active {
+    transform: translateX(0);
+}
+.menu_list {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu_list>a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+.menu_btn {
+    width: 77px;
+    height: 77px;
+    margin-top: 33px;
+    margin-left: 15px;
+}
+.menu_line {
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    z-index: 999999;
+    position: absolute;
+}
+
+.first {
+    margin-top: 10px;
+}
+
+.second {
+    margin-top: 20px;
+}
+
