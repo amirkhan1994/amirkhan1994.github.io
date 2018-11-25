@@ -59,6 +59,9 @@
     .menu_btn {
         display: block;
     }
+    .phone_link {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 550px) {
