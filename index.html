@@ -24,6 +24,8 @@
             height: 90px;
             display: flex;
             justify-content: center;
+            position: fixed;
+            z-index: 999999999999;
         }
         ul {
             display: flex;
@@ -51,6 +53,7 @@
             width: 100%;
             background: #878787 url(img/header_bg.svg) no-repeat center / cover;
             display: table;
+            padding-top: 85px;
         }
         .main_offer {
             width: 650px;
@@ -233,7 +236,7 @@
         </div>
     </section>
 
-    <section class="form" id="contact">
+    <section class="form" id="contacts">
         <div class="container send_number">
             <p class="send_number_title">Заказать обратный звонок</p>
             <form action="">
@@ -284,12 +287,29 @@
         <p>Copyright © Truck & TIR Servis 04 2018</p>
     </footer>
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="fotorama/fotorama.js"></script>
     <script>
+        // Меню
         $('.menu_btn').on('click', function (e) {
             e.preventDefault();
             $('.menu').toggleClass('menu_active');
         });
+        $(document).ready(function () {
+            // Плавный скролл по якорям
+            $('a[href^="#"]').click(function () {
+                elementClick = $(this).attr("href");
+                destination = $(elementClick).offset().top;
+                if ($.browser.safari) {
+                    $('body').animate({ scrollTop: destination }, 1000);
+                } else {
+                    $('html').animate({ scrollTop: destination }, 1000);
+                }
+                return false;
+            });  
+        });
+
     </script>
 </body>
 </html>
