@@ -49,7 +49,7 @@
         }
 
         .main_page {
-            height: 574px;
+            height: 700px;
             width: 100%;
             background: #878787 url(img/header_bg.svg) no-repeat center / cover;
             display: table;
@@ -116,6 +116,8 @@
     </style>
 
     <link rel="stylesheet" href="fotorama/fotorama.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -130,6 +132,7 @@
                 <li><a href="#services" class="link">Услуги</a></li>
                 <li><a href="#price" class="link">Цены</a></li>
                 <li><a href="#gallary" class="link">Галерея</a></li>
+                <li><a href="#reviews" class="link">Отзывы</a></li>
                 <li><a href="#contacts" class="link">Контакты</a></li>
             </ul>
             <a href="#" class="menu_btn">
@@ -139,12 +142,12 @@
             </a>
             <div class="burger">
                 <div class="menu">
-                    
                     <div class="menu_list">
                         <a href="#main">Главная</a>
                         <a href="#services">Услуги</a>
                         <a href="#price">Цены</a>
                         <a href="#gallary">Галерея</a>
+                        <a href="#reviews">Отзывы</a>
                         <a href="#contacts">Контакты</a>
                     </div>
                 </div>
@@ -155,7 +158,7 @@
                 <p class="company_title">Truck & TIR Servis 04</p>
                 <p class="slogan">предоставляем услуги более пяти лет!</p>
                 <p class="track_services">грузовой автосервис</p>
-                <a href="#" class="btn yellow">Заказать звонок</a>
+                <a href="#contacts" class="btn yellow">Заказать звонок</a>
             </div>
         </div>
     </header>
@@ -177,7 +180,7 @@
             <p class="text">Большой ассортимент запчастей в наличии и на заказ.</p>
             <p class="text">Ремонт двигателей. Ремонт кпп.</p>
             <p class="text">Ремонт гбц (опресовка, расточка, притирка клапанов)</p>
-            <a href="" class="btn btn-services">Заказать звонок</a>
+            <a href="#contacts" class="btn btn-services">Заказать звонок</a>
         </div>
     </section>
 
@@ -206,7 +209,7 @@
                     <p class="price_text">замена саленблоков подвески кабины-35000.</p>
                 </div>
             </div>
-            <div class="btn btn-services">Заказать звонок</div>
+            <a href="#contacts" class="btn btn-services">Заказать звонок</a>
         </div>
     </section>
 
@@ -216,24 +219,61 @@
             <div class="sec_border"></div>
         </div>
         <div class="fotorama" data-nav="thumbs" data-width="1178px">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
-            <img src="img/gallary/01.svg" alt="">
+            <img src="img/gallary/01.jpg" alt="">
+            <img src="img/gallary/02.jpg" alt="">
+            <img src="img/gallary/03.jpg" alt="">
+            <img src="img/gallary/04.jpg" alt="">
+            <img src="img/gallary/05.jpg" alt="">
+            <img src="img/gallary/06.jpg" alt="">
+            <img src="img/gallary/07.jpg" alt="">
+            <img src="img/gallary/08.jpg" alt="">
+            <img src="img/gallary/09.jpg" alt="">
+            <img src="img/gallary/10.jpg" alt="">
+            <img src="img/gallary/11.jpg" alt="">
+            <img src="img/gallary/12.jpg" alt="">
+            <img src="img/gallary/13.jpg" alt="">
+            <img src="img/gallary/14.jpg" alt="">
+            <img src="img/gallary/15.jpg" alt="">
+            <img src="img/gallary/16.jpg" alt="">
+            <img src="img/gallary/17.jpg" alt="">
+            <img src="img/gallary/18.jpg" alt="">
+            <img src="img/gallary/19.jpg" alt="">
+            <img src="img/gallary/20.jpg" alt="">
+            <img src="img/gallary/21.jpg" alt="">
+            <img src="img/gallary/22.jpg" alt="">
+            <img src="img/gallary/23.jpg" alt="">
+            <img src="img/gallary/24.jpg" alt="">
+            <img src="img/gallary/25.jpg" alt="">
+            <img src="img/gallary/26.jpg" alt="">
+            <img src="img/gallary/27.jpg" alt="">
+            <img src="img/gallary/28.jpg" alt="">
+            <img src="img/gallary/29.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="main_reviews" id="reviews">
+        <div class="reviews">
+            <div class="sec_main_title left">
+                <p class="sec_title">Отзывы наших клиентов</p>
+                <div class="sec_border"></div>
+            </div>
+            <div class="review_items">
+                <div class="review_item">
+                    <img src="img/reviews_img/01.png" alt="" class="review_avatar">
+                    <p class="review_name">Александр Куржаков</p>
+                    <p class="review_text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает</p>
+                </div>
+                <div class="review_item">
+                    <img src="img/reviews_img/01.png" alt="" class="review_avatar">
+                    <p class="review_name">Александр Куржаков</p>
+                    <p class="review_text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает</p>
+                </div>
+                <div class="review_item">
+                    <img src="img/reviews_img/01.png" alt="" class="review_avatar">
+                    <p class="review_name">Александр Куржаков</p>
+                    <p class="review_text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -291,6 +331,7 @@
     <script src="js/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="fotorama/fotorama.js"></script>
+    <script src="slick/slick.min.js"></script>
     <script>
         // Меню
         $('.menu_btn').on('click', function (e) {
@@ -310,7 +351,14 @@
                 return false;
             });  
         });
-
+        
+        $(document).ready(function () {
+            $('.review_items').slick({
+                centerPadding: '60px',
+                slidesToShow: 1,
+                arrows: true
+            });
+        });
     </script>
 </body>
 </html>

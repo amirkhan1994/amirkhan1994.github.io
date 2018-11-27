@@ -44,6 +44,19 @@
         display: flex;
         flex-direction: column;
     }
+    .main_reviews {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .reviews {
+        width: 100%;
+    }
+    .slick-next {
+        right: 35px;
+    }
+    .slick-prev {
+        left: 35px;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -107,5 +120,16 @@
     }
     .btn {
         font-size: 14px!important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .slick-next {
+        right: 15px;
+        top: 0;
+    }
+    .slick-prev {
+        left: 15px;
+        top: 0;
     }
 }
