@@ -45,17 +45,22 @@
         flex-direction: column;
     }
     .main_reviews {
-        padding-left: 40px;
-        padding-right: 40px;
+        
+    }
+    .review_text {
+        width: 90%;
+        margin: 0 auto;
     }
     .reviews {
         width: 100%;
     }
     .slick-next {
         right: 35px;
+        visibility: hidden;
     }
     .slick-prev {
         left: 35px;
+        visibility: hidden;
     }
 }
 
