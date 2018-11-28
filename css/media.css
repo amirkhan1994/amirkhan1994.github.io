@@ -62,6 +62,9 @@
         left: 35px;
         visibility: hidden;
     }
+    .social {
+        bottom: 0%!important;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -102,9 +105,7 @@
     .btn {
         font-size: 16px!important;
     }
-    .social {
-        bottom: 0%!important;
-    }
+    
 }
 
 @media screen and (max-width: 480px) {
