@@ -10,6 +10,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #212121;
+    z-index: 999999999999;
 }
 
 .fab {
