@@ -1,3 +1,23 @@
+.social {
+    width: 70px;
+    height: 145px;
+    padding: 17px 0;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #212121;
+}
+
+.fab {
+    font-size: 34px;
+    color: #fff;
+}
+
+
 .container {
     width: 1178px;
     margin: 0 auto;
