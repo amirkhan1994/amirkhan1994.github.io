@@ -54,14 +54,6 @@
     .reviews {
         width: 100%;
     }
-    .slick-next {
-        right: 35px;
-        visibility: hidden;
-    }
-    .slick-prev {
-        left: 35px;
-        visibility: hidden;
-    }
     .social {
         bottom: 0%!important;
     }
@@ -133,7 +125,7 @@
 }
 
 @media screen and (max-width: 400px) {
-    .slick-prev, .slick-next {
+    .right, .left {
         display: none!important;
     }
 }

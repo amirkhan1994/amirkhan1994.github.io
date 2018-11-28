@@ -134,7 +134,6 @@
             <ul>
                 <li><a href="#main" class="link">Главная</a></li>
                 <li><a href="#services" class="link">Услуги</a></li>
-                <li><a href="#price" class="link">Цены</a></li>
                 <li><a href="#gallary" class="link">Галерея</a></li>
                 <li><a href="#reviews" class="link">Отзывы</a></li>
                 <li><a href="#contacts" class="link">Контакты</a></li>
@@ -149,7 +148,6 @@
                     <div class="menu_list">
                         <a href="#main">Главная</a>
                         <a href="#services">Услуги</a>
-                        <a href="#price">Цены</a>
                         <a href="#gallary">Галерея</a>
                         <a href="#reviews">Отзывы</a>
                         <a href="#contacts">Контакты</a>
@@ -175,6 +173,7 @@
             </div>
             <p class="text bold">При покупке наших масел и охлаждающей жидкости замена бесплатно!</p>
             <p class="text bold">При обслуживании в нашем сервисе дефектовка ходовой части бесплатно!</p>
+            <p class="text bold">постоянным клиентам действуют скидки!</p>
             <p class="text">ремонт и изготовление тентов.</p>
             <p class="text">ремонт сдвижного механизма прицепа. (шторы. крыши.).</p>
             <p class="text">ремонт ходовой части. Ремонт тормозной системы (супортов, клепка накладок.).</p>
@@ -190,36 +189,8 @@
         </div>
     </section>
 
-    <section class="price" id="price">
-        <div class="container">
-            <div class="sec_main_title no-m">
-                <p class="sec_title left">наш прайс лист</p>
-                <div class="sec_border left-b"></div>
-            </div>
-            <div class="price_items">
-                <div class="price_item">
-                    <p class="price_text">замена пневморесоры-6000.</p>
-                    <p class="price_text">замена полуресоры-12000.</p>
-                    <p class="price_text">ремонт тормозного супорта - 13000.</p>
-                    <p class="price_text">замена рулевых шкворней 50000.</p>
-                    <p class="price_text">Клепка тормозных накладок-5000 ось.</p>
-                    <p class="price_text">замена крестовины-8000.</p>
-                </div>
-                <div class="price_item">
-                    <p class="price_text">Компьютерная диагностика 10000.</p>
-                    <p class="price_text">дефектовка ходовой части-5000.</p>
-                    <p class="price_text">замена саленблоков полурессор - 60000 </p>
-                    <p class="price_text">замена тор накладок-7000 ось.</p>
-                    <p class="price_text">Замена масла и фильтров - 7000.</p>
-                    <p class="price_text">замена саленблоков подвески кабины-35000.</p>
-                </div>
-            </div>
-            <a href="#contacts" class="btn btn-services">Заказать звонок</a>
-        </div>
-    </section>
-
     <section class="gallary" id="gallary">
-        <div class="sec_main_title left">
+        <div class="sec_main_title">
             <p class="sec_title">наша галерея</p>
             <div class="sec_border"></div>
         </div>
@@ -264,7 +235,7 @@
 
     <section class="main_reviews" id="reviews">
         <div class="reviews">
-            <div class="sec_main_title left">
+            <div class="sec_main_title">
                 <p class="sec_title">Отзывы наших клиентов</p>
                 <div class="sec_border"></div>
             </div>
@@ -367,7 +338,9 @@
             $('.review_items').slick({
                 centerPadding: '60px',
                 slidesToShow: 1,
-                arrows: true
+                arrows: true,
+                prevArrow: '<i class="fas feedback-slider-arrows right fa-arrow-circle-right"></i>',
+                nextArrow: '<i class="fas feedback-slider-arrows left fa-arrow-circle-left"></i>'
             });
         });
     </script>

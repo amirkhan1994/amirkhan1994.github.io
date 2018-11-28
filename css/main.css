@@ -60,22 +60,6 @@
 }
 
 
-.price {
-    background: #F4DD9B url(../img/price_bg.svg) no-repeat center / cover;
-    padding: 30px 0;
-    margin-top: 70px;
-    padding-bottom: 50px;
-}
-.left {
-    text-align: left!important;
-}
-.left-b {
-    margin: 0;
-    padding-top: 40px;
-}
-.no-m {
-    margin: 40px 0;
-}
 
 .price_items {
     display: flex;
@@ -94,6 +78,9 @@
 }
 
 .gallary {
+    background: #F4DD9B url(../img/reviews_bg.svg) no-repeat center / cover;
+    margin-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -103,9 +90,7 @@
 
 
 .main_reviews {
-    background: #F4DD9B url(../img/reviews_bg.svg) no-repeat center / cover;
     padding: 50px 0 140px 0;
-    margin-top: 130px;
 }
 .reviews {
     width: 700px;
@@ -294,3 +279,24 @@ footer {
     margin-top: 20px;
 }
 
+.feedback-slider-arrows {
+    position: absolute;
+    top: 50%;
+    height: 20px;
+    -webkit-transform: translateY(-9px);
+    -moz-transform: translateY(-9px);
+    -ms-transform: translateY(-9px);
+    -o-transform: translateY(-9px);
+    transform: translateY(-9px);
+    font-size: 24px;
+}
+
+.left {
+    left: -25px;
+    z-index: 99999;
+}
+
+.right {
+    right: -25px;
+    z-index: 99999;
+}
