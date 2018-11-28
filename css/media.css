@@ -102,6 +102,9 @@
     .btn {
         font-size: 16px!important;
     }
+    .social {
+        bottom: 0%!important;
+    }
 }
 
 @media screen and (max-width: 480px) {
